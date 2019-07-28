@@ -13,17 +13,17 @@ class CreateEnpagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('enpages', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->mediumText('content');
-            $table->string('meta_key')->nullable();
-            $table->string('meta_desc')->nullable();
-            $table->enum('type',['0','1','2']); //0 مقال 1 اخبار 2 اعلانات
-
-            $table->softDeletes();
-            $table->timestamps();
-        });
+//        Schema::create('enpages', function (Blueprint $table) {
+//            $table->increments('id');
+//            $table->string('name');
+//            $table->mediumText('content');
+//            $table->string('meta_key')->nullable();
+//            $table->string('meta_desc')->nullable();
+//            $table->enum('type',['0','1','2']); //0 مقال 1 اخبار 2 اعلانات
+//
+//            $table->softDeletes();
+//            $table->timestamps();
+//        });
     }
 
     /**
@@ -33,6 +33,6 @@ class CreateEnpagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('enpages');
+//        Schema::dropIfExists('enpages');
     }
 }

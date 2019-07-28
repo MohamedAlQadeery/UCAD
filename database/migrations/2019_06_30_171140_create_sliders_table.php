@@ -15,10 +15,9 @@ class CreateSlidersTable extends Migration
     {
        Schema::create('sliders', function (Blueprint $table) {
            $table->increments('id');
-           $table->integer('arpage_id')->unsigned()->nullable();
-           $table->integer('enpage_id')->unsigned()->nullable();
-           $table->foreign('arpage_id')->references('id')->on('arpages');
-           $table->foreign('enpage_id')->references('id')->on('enpages');
+           $table->integer('page_id')->unsigned();
+           $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade')
+               ->onUpdate('cascade');
            $table->string('content')->nullable();
            $table->string('name');
            $table->string('path');

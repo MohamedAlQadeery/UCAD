@@ -15,18 +15,13 @@ class CreateItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('ar_name');
-            $table->string('en_name');
+            $table->string('name');
             $table->integer('menu_id')->unsigned();
-            $table->integer('arpage_id')->unsigned()->nullable();
-            $table->integer('enpage_id')->unsigned()->nullable();
-
-            $table->foreign('arpage_id')->references('id')->on('arpages')->onDelete('cascade');;
-            $table->foreign('enpage_id')->references('id')->on('enpages')->onDelete('cascade');;
-
-
-            $table->foreign('menu_id')->references('id')->on('menus')->onDelete('cascade');;
-
+            $table->integer('page_id')->unsigned();
+            $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade')
+                ->onUpdate('cascade');
+            $table->foreign('menu_id')->references('id')->on('menus')->onDelete('cascade')
+                ->onUpdate('cascade');
 
 
             $table->boolean('active')->default(true);

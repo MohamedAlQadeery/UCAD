@@ -11,22 +11,16 @@ class Image extends Model
     use SoftDeletes;
     protected $table='images';
 
-    protected $fillable = ['arpage_id','enpage_id','path','album_id'];
+    protected $fillable = ['page_id','path','album_id'];
 
 
 
-     /*
-     * each image belongs to one arabic page
-     */
-    public function arpage(){
-        return $this->belongsTo('App\Front\Arpage','arpage_id','id');
-    }
 
     /*
  * each image belongs to one english page
  */
-    public function enpage(){
-        return $this->belongsTo('App\Front\Enpage','enpage_id','id');
+    public function page(){
+        return $this->belongsTo('App\Front\Page','page_id','id');
     }
 
 

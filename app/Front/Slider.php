@@ -11,22 +11,14 @@ class Slider extends Model
     use SoftDeletes;
     protected $table='sliders';
 
-    protected $fillable=['content','path','name','arpage_id','enpage_id','start_date','end_date'];
+    protected $fillable=['content','path','name','page_id','start_date','end_date'];
 
 
     /*
-     * each slider belongs to one arabic page
-     */
-    public function arPage(){
-        return $this->belongsTo('App\Front\Arpage','arpage_id','id');
-
-    }
-
-    /*
- * each slider belongs to one english page
- */
-    public function enPage(){
-        return $this->belongsTo('App\Front\Enpage','enpage_id','id');
+      * each item could have many arabic pages
+      */
+    public function page(){
+        return $this->hasOne('App\Front\Page','id','page_id');
 
     }
 }

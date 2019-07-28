@@ -11,7 +11,7 @@ class Menu extends Model
 
     protected $table = 'menus';
 
-    protected $fillable = ['ar_name','en_name','lang_flag','active'];
+    protected $fillable = ['name','lang','active'];
 
 
     public function items(){

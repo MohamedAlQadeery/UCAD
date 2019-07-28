@@ -10,7 +10,7 @@ class Item extends Model
     //
     protected $table='items';
 
-    protected $fillable = ['ar_name','en_name','menu_id','arpage_id','enpage_id','active'];
+    protected $fillable = ['name','menu_id','page_id','active'];
 
 
     /*
@@ -21,20 +21,14 @@ class Item extends Model
         return $this->belongsTo('App\Front\Menu','menu_id','id');
     }
 
-    /*
-     * each item could have many arabic pages
-     */
-    public function arPage(){
-        return $this->hasOne('App\Front\Arpage','id','arpage_id');
+
+
+    public function page(){
+        return $this->hasOne('App\Front\Page','id','page_id');
 
     }
 
-    /*
-     * each item could have many english pages
-     */
-    public function enPage(){
-        return $this->hasOne('App\Front\Enpage','id','enpage_id');
-    }
+
 
     public function subitems(){
         return $this->hasMany('App\Front\Subitem','item_id','id');

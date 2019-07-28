@@ -15,16 +15,12 @@ class CreateSubitemsTable extends Migration
     {
         Schema::create('subitems', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('ar_name');
-            $table->string('en_name');
+            $table->string('name');
             $table->integer('item_id')->unsigned();
-            $table->integer('arpage_id')->unsigned()->nullable();
-            $table->integer('enpage_id')->unsigned()->nullable();
-
-
-            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade');;
-            $table->foreign('arpage_id')->references('id')->on('arpages')->onDelete('cascade');;
-            $table->foreign('enpage_id')->references('id')->on('enpages')->onDelete('cascade');;
+            $table->foreign('item_id')->references('id')->on('items')->onDelete('cascade');
+            $table->integer('page_id')->unsigned();
+            $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade')
+                ->onUpdate('cascade');
 
             $table->boolean('active')->default(true);
             $table->timestamps();
