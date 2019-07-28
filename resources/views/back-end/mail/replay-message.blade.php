@@ -1,0 +1,4 @@
+Welcome {{$contactMessage->email}}
+
+
+{!! $replayMessage !!}

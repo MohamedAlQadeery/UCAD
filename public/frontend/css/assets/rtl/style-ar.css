@@ -1,0 +1,122 @@
+/* Start Ovverride */
+
+header .header-top .header-top-right ul {
+  text-align: left
+}
+
+header .header-top .header-top-right ul li a .top-icon,
+header .header-top .header-top-left ul li .top-icon  {
+  padding: 0;
+  padding-left: 5px
+}
+
+
+.navbar-nav.pull-right {
+  float: left !important
+}
+font-family{
+  font-family: 'Amiri', serif;
+}
+
+p {
+  font-family: 'DroidArabicNaskhRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+header .header-body .edu-navbar .edu-nav .nav li ul.dropdown {
+  right: 0;
+  left: auto;
+}
+
+header .header-body .edu-navbar .edu-nav .nav li ul.dropdown::before {
+  left: auto;
+  right: 20px;
+}
+
+header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a {
+  text-align: right;
+}
+
+
+header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a .fa-angle-right {
+  margin-left: 5px;
+}
+
+.rev_slider_wrapper {
+  direction: ltr;
+}
+
+.tp-caption {
+  text-align: right !important;
+}
+
+.slider-content-bottom .slider-btm-box a .slider-b-btn-icon {
+  padding: 0;
+  padding-right: 10px;
+}
+
+.section-header-l h2 {
+  text-align: right;
+}
+
+.section-header-l:before {
+  left: auto;
+  right: 5px;
+}
+
+.events-area .event-info .events-time span .event-icon,
+.news-area .news-single-box .news-content .news-time span .event-icon {
+  padding: 0;
+  padding-left: 2px;
+}
+
+.events-area .event-info a .events-btn-icon {
+  padding: 0;
+  padding-right: 5px;
+}
+
+.students-say-area {
+  direction: ltr;
+}
+
+.instraction-area .inspiration-full-box .section-header-l p {
+  text-align: right;
+}
+.event-details-1 .event-details .post_left-side .description-content .description-heading p span i {
+  margin: 10px;
+}
+footer .footer-content-box ul span {
+  padding: 0;
+  padding-left: 6px;
+}
+
+.contact .contact-area-02 .contact-info h2 {
+  text-align: right;
+}
+.contact .contact-area-02 .contact-form .contact-title-btm h2 {
+  text-align: right;
+
+}.contact .contact-area-02 .contact-form .contact-title-btm .content-sub_p {
+
+   text-align: right;
+ }
+
+.clock-countdown{
+  right: 0;
+  padding-right: 5px;
+}
+
+header .header-body .edu-navbar .navbar-header a img {
+  width: 80px;
+  float: right !important;
+}
+
+header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li {
+  padding-right: 10px;
+}
+
+
+
+/* End Ovverride */

@@ -1,0 +1,4 @@
+Welcome {{$application->name}}
+
+
+{!! $replayMessage !!}

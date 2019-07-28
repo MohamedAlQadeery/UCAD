@@ -1,0 +1,43 @@
+<?php
+
+return[
+    'login' => 'Login',
+    'sign_up' => 'Sign up',
+    'welcome' =>'Welcome to Faculty of Capacity Development',
+    'read_more' => 'Read more',
+    'welcomeCollage' => 'A leading college in the field A leading college in the field A leading college in the field A leading college in the field',
+    'popular_courses' => 'Popular Courses',
+    'apply_now' => 'Apply now',
+    'am' => 'am',
+    'pm' => 'pm',
+    'upcoming_event' => 'Upcoming Events',
+    'active_student' => 'Active Students',
+    'online_courses' => 'Online Courses',
+    'get_started' => 'Get started Today',
+    'cda' => 'CDA',
+    'links' => 'Links',
+    'subjects' => 'Subjects',
+    'latest_news' => 'Latest News',
+    'partners' => 'University Partners',
+    'teacher' => 'Teacher',
+    'review' => 'Review',
+    'reviews' => 'Reviews',
+    'students' => 'Students',
+    'home' => 'Home',
+    'phone' => 'Phone',
+    'email' => 'Email',
+    'location' => 'Location',
+    'contact_info' => 'Contact Info',
+    'send_message' => 'Send A Message',
+    'map' => 'Map',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+
+
+
+];
