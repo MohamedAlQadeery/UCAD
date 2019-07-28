@@ -2,168 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e42192d5-fe3f-407b-9bbb-b2ad31bc53b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Front/Image.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Front/Image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Front/Item.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Front/Item.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Front/Menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Front/Menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Front/Slider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Front/Slider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Front/Subitem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Front/Subitem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_153232_create_enpages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_153232_create_enpages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_153233_create_arpages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_153233_create_arpages_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_163237_create_menus_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_163237_create_menus_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_163442_create_items_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_163442_create_items_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_164116_create_subitems_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_164116_create_subitems_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_170744_create_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_170744_create_images_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_171140_create_sliders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_06_30_171140_create_sliders_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/bower_components/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/bower_components/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/bower_components/ckeditor/samples/old/image2/assets/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/bower_components/ckeditor/samples/old/image2/assets/image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/bower_components/jquery-knob/secretplan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/bower_components/jquery-knob/secretplan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/dist/img/photo4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/dist/img/photo4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/dist/img/user1-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/dist/img/user1-128x128.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/design/adminlte/dist/img/user7-128x128.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/design/adminlte/dist/img/user7-128x128.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/Single_cources/banner-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/Single_cources/banner-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/Single_cources/curses-details.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/Single_cources/curses-details.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/Single_cources/discount-offer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/Single_cources/discount-offer.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/blog-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/blog-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/blog-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/blog-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/blog-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/blog-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/blog-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/blog-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/post-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/post-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/post-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/post-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/blog/post-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/blog/post-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/event-details.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/event-details.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/events-l-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/events-l-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/up-event-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/up-event-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/up-event-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/up-event-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/event/up-event-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/event/up-event-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/courses-demo2-08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/events-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/events-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/events-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/events-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/footer-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/info_bg_v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/info_bg_v2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/instraction-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/instraction-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/news-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/news-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/news-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/news-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/news-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/news-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/parent-say-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/parent-say-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/register-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/register-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/slide-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/slide-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/slide-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/slide-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-02/teachar-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/achievment-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/achievment-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/all-stu-count-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/all-stu-count-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/banner-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/banner-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/courses-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/courses-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/courses-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/courses-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/courses-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/courses-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/courses-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/courses-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/courses-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/courses-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/footer-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/gallery-08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/news-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/news-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/news-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/news-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/news-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/news-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/partner-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/partner-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/scarch-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/scarch-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-03/welcome.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-03/welcome.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/author-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/author-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/author-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/author-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/author-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/author-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/courses-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/courses-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/facilities-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/footer-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/latest_news.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/latest_news.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/regirster-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/regirster-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/slider-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/slider-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/slider-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/slider-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/trausted-stu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/trausted-stu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index-04/video-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index-04/video-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/counter-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/counter-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/courses-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/courses-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/events-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/events-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/events-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/events-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/footer-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/footer-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/instraction-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/instraction-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/news-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/news-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/news-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/news-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/news-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/news-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/news-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/news-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/publicaton-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/publicaton-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/publicaton-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/publicaton-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/publicaton-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/publicaton-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/publicaton-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/publicaton-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/slider-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/slider-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/slider-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/slider-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/stu-parent-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/index/video-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/index/video-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/register-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/register-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/become-teacher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/become-teacher.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/latest-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/latest-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/latest-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/latest-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/latest-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/latest-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/t-profile-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/t-profile-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/frontend/images/teachars/teachar-10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Front/Arpage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Front/Enpage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackEnd/ArPagesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BackEnd/EnPagesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/BackEnd/Pages/StoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/BackEnd/Pages/StoreRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_153232_create_enpages_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_06_30_153233_create_arpages_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layout/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layout/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages (copy)/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back-end/pages/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages (copy)/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back-end/pages/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages (copy)/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back-end/pages/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages (copy)/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back-end/pages/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages/form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/arpages/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/enpages/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/enpages/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/enpages/form.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back-end/enpages/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,99 +38,75 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Page.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Setting.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Slider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Item.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Knowabout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="68" lean-forward="true" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Front/Menu.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Subitem.php">
+        <entry file="file://$PROJECT_DIR$/routes/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Album.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/back-end/items/form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="360">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="33" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Front/Application.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="37">
+              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pages</find>
+      <find>enpa</find>
+      <find>page</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -281,7 +118,6 @@
         <option value="$PROJECT_DIR$/resources/views/test1.blade.php" />
         <option value="$PROJECT_DIR$/config/lfm.php" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_30_163237_create_menus_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_06_29_231417_create_pages_table.php" />
         <option value="$PROJECT_DIR$/app/Front/Page.php" />
@@ -296,6 +132,13 @@
         <option value="$PROJECT_DIR$/app/Front/Item.php" />
         <option value="$PROJECT_DIR$/app/Front/Slider.php" />
         <option value="$PROJECT_DIR$/app/Front/Menu.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/BackEnd/Pages/StoreRequest.php" />
+        <option value="$PROJECT_DIR$/routes/admin.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layout/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/back-end/pages/form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BackEnd/PagesController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/back-end/pages/index.blade.php" />
       </list>
     </option>
   </component>
@@ -415,13 +258,13 @@
             <path>
               <item name="nsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="nsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nsite" type="b2602c69:ProjectViewProjectNode" />
               <item name="nsite" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -468,27 +311,36 @@
       <updated>1564146785386</updated>
       <workItem from="1564146794114" duration="1435000" />
       <workItem from="1564311231821" duration="1707000" />
-      <workItem from="1564343165863" duration="2277000" />
+      <workItem from="1564343165863" duration="3794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5419000" />
+    <option name="totallyTimeSpent" value="6936000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6372549" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -533,27 +385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BackEnd/EnPagesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BackEnd/ArPagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -575,13 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_30_163237_create_menus_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -624,13 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_29_231417_create_pages_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -697,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Front/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Front/Role.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -748,8 +562,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Front/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_30_163237_create_menus_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Front/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_29_231417_create_pages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/BackEnd/Pages/StoreRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/arpages (copy)/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/shared/table.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BackEnd/ArPagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="155" column="124" selection-start-line="155" selection-start-column="120" selection-end-line="155" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/items/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BackEnd/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#48#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="68" lean-forward="true" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/back-end/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

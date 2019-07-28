@@ -27,7 +27,8 @@ class StoreRequest extends FormRequest
             //
             'name'=>'required|',
             'content'=>'required|min:5',
-            'type'=>'required'
+            'type'=>'required',
+            'lang'=>'required'
 
         ];
     }

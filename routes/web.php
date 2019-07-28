@@ -11,9 +11,9 @@
 |
 */
 
-//Route::get('/pass', function () {
-//    dd(bcrypt('12345'));
-//});
+Route::get('/pass', function () {
+    dd(bcrypt('12345'));
+});
 
 Route::get('lang/{lang}', function ($lang) {
 
@@ -66,7 +66,7 @@ Route::namespace('FrontEnd')->prefix('')->group(function () {
   route::resource('menus','MenusController');
   route::resource('menus/{menu}/items','ItemsController');
   route::resource('items/{item}/subitems','SubItemsController')->except(['show']);
-  route::resource('arpages','ArPagesController');
+  route::resource('pages','ArPagesController');
   route::resource('enpages','EnPagesController');
   route::resource('messages','MessagesController')->only(['index','edit','destroy']);
   route::post('messages/{id}','MessagesController@replay')->name('messages.replay');

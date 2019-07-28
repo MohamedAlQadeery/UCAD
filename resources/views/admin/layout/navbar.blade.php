@@ -146,32 +146,19 @@
 
             <li class="treeview {{ active_menu('admin')[0] }}">
                 <a href="#">
-                    <i class="fa fa-window-restore"></i> <span>@lang('admin.arabicPages')</span>
+                    <i class="fa fa-window-restore"></i> <span>@lang('admin.pages')</span>
                     <span class="pull-{{ $angle }}-container">
         <i class="fa fa-angle-{{ $angle }} pull-{{ $angle }}"></i>
       </span>
                 </a>
                 <ul class="treeview-menu" style="{{ active_menu('admin')[1] }}">
-                    <li class=""><a href="{{route('admin.arpages.index')}}"><i class="fa fa-users"></i>@lang('admin.showAllPages')
-                    <li class=""><a href="{{route('admin.arpages.create')}}"><i class="fa fa-plus"></i>@lang('admin.createArPAge')
+                    <li class=""><a href="{{route('admin.pages.index')}}"><i class="fa fa-users"></i>@lang('admin.showAllPages')
+                    <li class=""><a href="{{route('admin.pages.create')}}"><i class="fa fa-plus"></i>@lang('admin.createPage')
                         </a></li>
                 </ul>
             </li>
 
 
-            <li class="treeview {{ active_menu('admin')[0] }}">
-                <a href="#">
-                    <i class="fa fa-window-restore"></i> <span>@lang('admin.englishPages')</span>
-                    <span class="pull-{{ $angle }}-container">
-        <i class="fa fa-angle-{{ $angle }} pull-{{ $angle }}"></i>
-      </span>
-                </a>
-                <ul class="treeview-menu" style="{{ active_menu('admin')[1] }}">
-                    <li class=""><a href="{{route('admin.enpages.index')}}"><i class="fa fa-users"></i>@lang('admin.showAllPages')
-                    <li class=""><a href="{{route('admin.enpages.create')}}"><i class="fa fa-plus"></i>@lang('admin.createEnPAge')
-                        </a></li>
-                </ul>
-            </li>
 
 
             <li class="treeview {{ active_menu('admin')[0] }}">
@@ -182,8 +169,8 @@
       </span>
                 </a>
                 <ul class="treeview-menu" style="{{ active_menu('admin')[1] }}">
-                    <li class=""><a href="{{route('admin.enpages.index')}}"><i class="fa fa-users"></i>@lang('admin.showSliders')
-                    <li class=""><a href="{{route('admin.enpages.create')}}"><i class="fa fa-plus"></i>@lang('admin.createSilder')
+                    <li class=""><a href="#"><i class="fa fa-users"></i>@lang('admin.showSliders')
+                    <li class=""><a href="#"><i class="fa fa-plus"></i>@lang('admin.createSilder')
                         </a></li>
                 </ul>
             </li>
