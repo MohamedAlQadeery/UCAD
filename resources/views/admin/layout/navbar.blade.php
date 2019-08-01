@@ -112,34 +112,6 @@
                     <li class=""><a href="{{route('admin.menus.create')}}"><i
                                 class="fa fa-plus"></i> {{ trans('admin.createMenu') }}</a></li>
 
-                    @foreach(\App\Front\Menu::all() as $menu)
-                        <li class="treeview {{ active_menu('cities')[0] }}">
-                            <a href="#">
-                                <i class="fa fa-building"></i>
-                                <span>{{app()->getLocale()=='ar'?$menu->ar_name : $menu->en_name}}</span>
-                                <span class="pull-right-container">
-                                <i class="fa fa-angle-{{ $angle }} pull-{{ $angle }}"></i></span></a>
-                            <ul class="treeview-menu" style="{{ active_menu('cities')[1] }}">
-                                <li class="">
-                                    <a href="{{route('admin.items.index',$menu->id)}}"><i class="fa fa-building"></i> @lang('admin.showItems')</a>
-                                    <a href="{{route('admin.items.create',$menu->id)}}"><i class="fa fa-plus"></i>@lang("admin.addItem")</a>
-                                    @foreach($menu->items as $item)
-                                        <a href="{{route('admin.items.edit',[$item->menu->id,$item->id])}}"><i
-                                                class="fa fa-building"></i>
-                                            <span>{{app()->getLocale()=='ar'?$item->ar_name : $item->en_name}}</span>
-                                        </a>
-                                @if($item->subitems->count())
-                                    @foreach($item->subitems as $subitem)
-                                        <li class=""><a
-                                                href="{{route('admin.subitems.edit',[$subitem->item->id,$subitem->id])}}"><i
-                                                    class="fa fa-search"></i> {{$subitem->ar_name}}</a>
-                                        </li>
-                                    @endforeach
-                                 @endif
-                                @endforeach
-                            </ul>
-                            @endforeach
-                        </li>
                 </ul>
                 <!-- show all menus  and if press any menu display create item form-->
             </li>
@@ -153,7 +125,6 @@
                 </a>
                 <ul class="treeview-menu" style="{{ active_menu('admin')[1] }}">
                     <li class=""><a href="{{route('admin.pages.index')}}"><i class="fa fa-users"></i>@lang('admin.showAllPages')
-                    <li class=""><a href="{{route('admin.pages.create')}}"><i class="fa fa-plus"></i>@lang('admin.createPage')
                         </a></li>
                 </ul>
             </li>

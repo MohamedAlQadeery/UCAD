@@ -17,9 +17,7 @@ class CreateItemsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->integer('menu_id')->unsigned();
-            $table->integer('page_id')->unsigned();
-            $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade')
-                ->onUpdate('cascade');
+            $table->integer('page_id')->unsigned()->nullable();
             $table->foreign('menu_id')->references('id')->on('menus')->onDelete('cascade')
                 ->onUpdate('cascade');
 

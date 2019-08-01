@@ -2,7 +2,7 @@
 @section('content')
 
 
-    @component('back-end.shared.create',['modelSingleName'=>$modelSingleName,'modelPageDesc'=>$modelPageDesc])
+    @component('back-end.shared.create',['modelSingleName'=>$modelSingleName,'modelPageDesc'=>$modelPageDesc,'parent'=>$parent])
 
         @slot('createForm')
 

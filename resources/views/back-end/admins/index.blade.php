@@ -1,7 +1,7 @@
 @extends('admin.index')
 @section('content')
 
-    @component('back-end.shared.table',['modelDesc'=>$modelDesc , "modelPluralName" => $modelPluralName])
+    @component('back-end.shared.table',['modelDesc'=>$modelDesc , "modelPluralName" => $modelPluralName,'search'=>''])
 
         @slot('table')
 

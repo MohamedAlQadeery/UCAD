@@ -1,7 +1,7 @@
 <form   action="{{route('admin.'.$pluralModel.'.destroy',$row->id)}}" method="post" onsubmit="return confirm('Are you sure?');">
     @csrf
     @method('delete')
-    <button type="submit" rel="tooltip" title=""  style="margin-left:5px " class="btn btn-danger" data-original-title="Remove {{$modelName}}">
+    <button type="submit" rel="tooltip" title=""  style="margin-right:8px " class="btn btn-danger" data-original-title="Remove {{$modelName}}">
         <i class="fa fa-times"></i>
     </button>
 </form>

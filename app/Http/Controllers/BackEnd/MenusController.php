@@ -23,7 +23,7 @@ class MenusController extends BackEndController
 
         $this->model->create($request->all());
         alert()->success('The Menu Has Been Created Successfully', 'Success');
-        return redirect()->route('admin.admin.menus.index');
+        return redirect()->route('admin.menus.index');
     }
 
 
@@ -45,15 +45,6 @@ class MenusController extends BackEndController
 
 
 
-    protected function append()
-    {
-        $array=[
-            'arPages'=>Arpage::all(),
-            'enPages'=>Enpage::all()
-        ];
-
-        return $array;
-    }
 
 
 

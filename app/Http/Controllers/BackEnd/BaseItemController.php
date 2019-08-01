@@ -5,6 +5,7 @@ namespace App\Http\Controllers\BackEnd;
 use App\Front\Arpage;
 use App\Front\Enpage;
 use App\Front\Item;
+use App\Front\Page;
 use App\Front\Subitem;
 use App\Http\Requests\BackEnd\Items\StoreRequest;
 use Illuminate\Database\Eloquent\Model;
@@ -37,7 +38,7 @@ class BaseItemController extends Controller
         $parent = $this->parentModel->findOrFail($parentId);
         $parent->getChildren()->create($request->all());
         alert()->success('The Item Has Been Created Successfully', 'Success');
-        return redirect()->route($this->getPluralModelName() . '.index', $parent->id);
+        return redirect()->route('admin.'.$this->getPluralModelName() . '.index', $parent->id);
     }
 
 
@@ -47,31 +48,39 @@ class BaseItemController extends Controller
         $parent = $this->parentModel->findOrFail($id);
         $children = $parent->getChildren();
         $pluralSubModelName = $this->getPluralModelName();
-        $rows = $children->paginate(10);
+        $rows = $children->where([]);
+        if (request()->has('search')) {
+            $rows = $rows->where('name', 'like', '%' . request()->input('search') . '%');
+        }
+        $rows = $rows->latest()->paginate(10);
+        $rows->appends(['search'=>request()->search]);
+
         $modelName = $this->getSingleModelName();
         $modelPluralName = $this->getPluralModelName();
-        $modelDesc = $parent->en_name . ' ' . $pluralSubModelName . ' Control Page';
+        $modelDesc = $parent->name . ' ' . $pluralSubModelName . ' Control Page';
 
 
-        return view('back-end.' . $pluralSubModelName . '.index', compact(['rows', 'modelName', 'modelPluralName', 'modelDesc']));
+        return view('back-end.' . $pluralSubModelName . '.index', compact(['parent','rows', 'modelName', 'modelPluralName', 'modelDesc']));
 
 
     }
 
     public function create($parentId)
     {
-        $parent = $this->parentModel->findOrFail($parentId);
 
+
+        $parent = $this->parentModel->findOrFail($parentId);
         $singleSubModelName = $this->getSingleModelName();
         $pluralSubModelName = $this->getPluralModelName();
         $append = $this->append();
-
+        $pages = $this->getUnSelectedPages($parentId);
 
         return view('back-end.' . $pluralSubModelName . '.create', [
             'modelSingleName' => $singleSubModelName,
             'modelPluralName' => $pluralSubModelName,
             'modelPageDesc' => 'Add ' . $singleSubModelName . ' To ' . $this->getSingleParentModelName(),
-            'parent' => $parent
+            'parent' => $parent,
+            'pages'=>$pages
 
         ])->with($append);
 
@@ -88,12 +97,14 @@ class BaseItemController extends Controller
         $pluralSubModelName = $this->getPluralModelName();
         $append = $this->append();
 
+
         return view('back-end.' . $pluralSubModelName . '.edit', [
             'row' => $sub,
             'modelSingleName' => $singleSubModelName,
             'modelPluralName' => $pluralSubModelName,
             'modelPageDesc' => $singleSubModelName . ' edit page',
-            'parent' => $parent
+            'parent' => $parent,
+            'pages'=>$this->getUnSelectedPages($parent->id)
 
         ])->with($append);
 
@@ -107,7 +118,7 @@ class BaseItemController extends Controller
 
         $parent->getChildren()->where('id', $subId)->delete();
         alert()->success('The Item Has Been Deleted Successfully', 'Success');
-        return redirect()->route($this->getPluralModelName() . '.index', $parent->id);
+        return redirect()->route('admin.'.$this->getPluralModelName() . '.index', $parent->id);
     }
 
 
@@ -121,7 +132,7 @@ class BaseItemController extends Controller
         $parent->getChildren()->where('id', $subId)->update($request->except(['_token', '_method']));
         alert()->success('The' . $this->getSingleModelName() . ' Has Been Updated Successfully', 'Success');
 
-        return redirect()->route($this->getPluralModelName() . '.index', $parent->id);
+        return redirect()->route('admin.'.$this->getPluralModelName() . '.index', $parent->id);
 
     }
 
@@ -185,65 +196,31 @@ class BaseItemController extends Controller
     }
 
 
-    public function unselectedArPages()
+    public function getUnSelectedPages($parentId)
     {
 
+        $parent = $this->parentModel->findOrFail($parentId);
         $commonItems = Collection::make();
 
-        $unselectedItems = DB::table("arpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('arpage_id')->from('items');
-            })
-            ->get();
+        if(!is_null($parent->lang)){
+            $unselectedItems =Page::where(['lang'=>$parent->lang])->doesntHave('item')->get();
 
+            $unselectedSubItems = Page::where(['lang'=>$parent->lang])->doesntHave('subitem')->get();
+        }else{
+            $unselectedItems =Page::where(['lang'=>$parent->getParent()->lang])->doesntHave('item')->get();
 
-        $unselectedSubItems = DB::table("arpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('arpage_id')->from('subitems');
-            })
-            ->get();
-
-
-        foreach ($unselectedItems as $item) {
-            if ($unselectedSubItems->contains($item)) {
-                $commonItems->add($item);
-            }
+            $unselectedSubItems = Page::where(['lang'=>$parent->getParent()->lang])->doesntHave('subitem')->get();
         }
+
+
+
+
+        $commonItems = $unselectedItems->intersect($unselectedSubItems);
 
         return $commonItems;
 
-
     }
 
-    public function unselectedEnPages()
-    {
-
-        $commonItems = Collection::make();
-
-        $unselectedItems = DB::table("enpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('enpage_id')->from('items');
-            })
-            ->get();
-
-
-        $unselectedSubItems = DB::table("enpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('enpage_id')->from('subitems');
-            })
-            ->get();
-
-
-        foreach ($unselectedItems as $item) {
-            if ($unselectedSubItems->contains($item)) {
-                $commonItems->add($item);
-            }
-        }
-
-        return $commonItems;
-
-
-    }
 
 
 

@@ -55,7 +55,7 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapAdminRoutes()
     {
         Route::group([
-            'middleware' => ['web', 'auth:admin'],
+            'middleware' => ['web', 'auth:admin','Lang'],
             'prefix' => 'admin',
             'as' => 'admin.',
             'namespace' => $this->adminnamespace,
@@ -73,7 +73,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')
+        Route::middleware(['web','Lang'])
              ->namespace($this->namespace)
              ->group(base_path('routes/web.php'));
     }

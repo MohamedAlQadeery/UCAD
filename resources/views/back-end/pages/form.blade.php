@@ -20,8 +20,8 @@
     <div class="form-group col-md-6 ">
         <label>@lang('admin.page_language')</label>
         <select  name="lang" class="form-control">
-            <option value="ar" selected>@lang('admin.arabic')</option>
-            <option value="en" selected>@lang('admin.english')</option>
+            <option value="ar" selected {{isset($row) && $row->lang =='ar'?'selected':''}}>@lang('admin.arabic')</option>
+            <option value="en" {{isset($row) && $row->lang =='en'?'selected':''}}>@lang('admin.english')</option>
         </select>
     </div>
 </div>

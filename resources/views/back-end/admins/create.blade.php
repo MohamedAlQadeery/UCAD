@@ -1,7 +1,7 @@
 @extends('admin.index')
 @section('content')
 
-    @component('back-end.shared.create',['modelSingleName'=>$modelSingleName,'modelPageDesc'=>$modelPageDesc]) --}}
+    @component('back-end.shared.create',['modelSingleName'=>$modelSingleName,'modelPageDesc'=>$modelPageDesc,'parent'=>'']) --}}
          @slot('createForm') 
 
             <form action="{{route('admin.registerFormAction')}}" method="POST">

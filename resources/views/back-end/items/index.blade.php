@@ -3,6 +3,27 @@
 
     @component('back-end.shared.table',['modelDesc'=>$modelDesc,'modelPluralName'=>$modelPluralName])
 
+
+        @slot('search')
+            <form action="" method="GET">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input type="text" name="search" placeholder="@lang('admin.search')"
+                               class="form-control">
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i>@lang('admin.search')</button>
+                        <a href="{{ route('admin.items.create',$parent->id) }}" class="btn btn-primary"><i class="fa fa-plus"></i> @lang('admin.create_item')</a>
+
+
+                    </div>
+                </div>
+            </form>
+
+        @endslot
+
         @slot('table')
 
             <table class="table table-hover">
@@ -11,17 +32,17 @@
                 <tbody>
                 <tr>
                     <th>#</th>
-                    <th>@lang('admin.arabic name')</th>
-                    <th>@lang('admin.english name')</th>
+                    <th>@lang('admin.name')</th>
                     <th>@lang('admin.status')</th>
+                    <th>@lang('admin.related_subitems')</th>
+
                     <th style="text-align: center">@lang('admin.options')</th>
                 </tr>
 
                 @foreach($rows as $row)
                     <tr>
                         <td>{{$counter}}</td>
-                        <td>{{$row->ar_name}}</td>
-                        <td>{{$row->en_name}}</td>
+                        <td>{{$row->name}}</td>
                         <td>
                             @if($row->active==1)
                                 Active
@@ -30,6 +51,7 @@
                             @endif
 
                         </td>
+                        <td><a href="{{route('admin.subitems.index',$row->id)}}" class="btn btn-primary btn-sm">@lang('admin.related_items')</a></td>
 
 
                         <td>

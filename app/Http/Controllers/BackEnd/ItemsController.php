@@ -26,29 +26,9 @@ class ItemsController extends BaseItemController
 
 
 
-    public function update(StoreRequest $request, $parentId, $subId)
-    {
-        $parent = $this->parentModel->findOrFail($parentId);
-        $sub = $this->subModel->findOrFail($subId);
 
 
-        $parent->getChildren()->where('id', $subId)->update($request->except(['_token', '_method']));
-        alert()->success('The' . $this->getSingleModelName() . ' Has Been Updated Successfully', 'Success');
 
-        return redirect()->route($this->getPluralModelName() . '.index', $parent->id);
-    }
-
-    protected function append()
-    {
-
-        return [
-
-            'arPages' => $this->unselectedArPages(),
-            'enPages' => $this->unselectedEnPages(),
-
-
-        ];
-    }
 
 
 

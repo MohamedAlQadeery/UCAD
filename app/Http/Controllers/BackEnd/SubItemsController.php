@@ -21,26 +21,5 @@ class SubItemsController extends BaseItemController
         parent::__construct($item, $subitem);
     }
 
-    protected function append()
-    {
 
-
-        $arabicPages = DB::table("arpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('arpage_id')->from('subitems');
-            })
-            ->get();
-
-
-        $englishPages =  DB::table("enpages")->select('*')
-            ->whereNotIn('id', function ($query) {
-                $query->select('enpage_id')->from('subitems');
-            })
-            ->get();
-
-        return [
-            'arPages' => $arabicPages,
-            'enPages' => $englishPages
-        ];
-    }
 }

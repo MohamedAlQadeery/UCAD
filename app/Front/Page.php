@@ -13,14 +13,14 @@ class Page extends Model
 
 
     //1 اخبار 2 اعلانات
-    protected $fillable = ['name','content','keywords','meta_desc','type','lang']; // type 0 مقال
+    protected $fillable = ['name','content','keywords','meta_desc','type','lang','meta_key']; // type 0 مقال
 
 
     /*
      * each arabic page belongs to one item
      */
     public function item(){
-        return $this->belongsTo('App\Front\Item','page_id','id');
+        return $this->belongsTo('App\Front\Item','id','page_id');
     }
 
 
@@ -29,7 +29,7 @@ class Page extends Model
      */
 
     public function subItem(){
-        return $this->belongsTo('App\Front\Subitem','page_id','id');
+        return $this->belongsTo('App\Front\Subitem','id','page_id');
     }
 
 
@@ -47,6 +47,8 @@ class Page extends Model
     public function slider(){
         return $this->hasOne('App\Front\Slider','page_id','id');
     }
+
+
 
 
 }

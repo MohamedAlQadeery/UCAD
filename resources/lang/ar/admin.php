@@ -23,7 +23,7 @@ return [
     'sInfoEmpty' => 'معلومات خالية',
     'sInfoFiltered' => 'معلومات منتقاه',
     'sInfoPostFix' => '',
-    'sSearch' => 'بحث',
+    'search' => 'بحث',
     'sUrl' => '',
     'sInfoThousands' => '',
     'sLoadingRecords' => 'تحميل السجلات',
@@ -215,7 +215,6 @@ return [
     'phone'=>"رقم الهاتف",
     'group'=>"المجموعة",
     'show' => 'إظهار المشرفين',
-    'create' => 'إضافة    مشرف',
     'showMessages' => 'إظهار الرسائل',
     'messages' => 'الرسائل',
 
@@ -250,7 +249,24 @@ return [
     "editRole"=>"تعديل",
     "deleteRole"=>"الحذف",
     "messagesRole"=>"الرسائل",
-    "Group"=>"Groups"
+    "Group"=>"Groups",
+    'arabic'=>'العربية',
+    'english'=>'الانجليزية',
+    'choose_language'=>'اختر لغة',
+    'search'=>'ابحث',
+    'language'=>'اللغة',
+    'disable'=>'معطل',
+    'related_items'=>'العناصر المرتبطة',
+    'related_subitems'=>'العناصر الفرعيه المرتبطة',
+    'create_item'=>'اضف عنصر',
+    'related_page'=>'الصفحة المرتبطة',
+
+    'create_page'=>'انشاء صفحة',
+
+    'Add Subitem To Item'=>'اضافه عنصر فرعي الى عنصر رئيسي',
+    'Add Item To Menu'=>'اضافه عنصر رئيسي الى قائمه',
+    'choose_type'=>'اختر النوع',
+
 
 
 ];

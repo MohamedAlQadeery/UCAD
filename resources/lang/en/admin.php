@@ -19,7 +19,7 @@ return [
     'sInfoEmpty' => 'Info Empty',
     'sInfoFiltered' => 'Info Filtered',
     'sInfoPostFix' => '',
-    'sSearch' => 'Search',
+    'search' => 'Search',
     'sUrl' => '',
     'sInfoThousands' => 'Info Thousands',
     'sLoadingRecords' => 'Loading Records',
@@ -137,7 +137,20 @@ return [
     'createRole'=> "Create",
     "editRole"=>"Edit",
     "deleteRole"=>"Delete",
-    "messagesRole"=> "Messages"
+    "messagesRole"=> "Messages",
+    'language'=>'Language',
+    'disable'=>'Disable',
+    'related_items'=>'Related Items',
+    'create_item'=>'Create Item',
+    'choose_type'=>'Choose Type',
+    'choose_language'=>'Language',
+    'arabic'=>'Arabic',
+    'english'=>'English',
+    'create_page'=>'Create Page',
+
+
+
+
 
 
 ];

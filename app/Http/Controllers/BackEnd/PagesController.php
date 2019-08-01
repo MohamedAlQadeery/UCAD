@@ -18,7 +18,7 @@ class PagesController  extends BackEndController
 
 
     public function store(StoreRequest $request){
-        $this->model->create($request->all());
+        Page::create($request->all());
         alert()->success('The Page Has Been Created Successfully', 'Success');
         return redirect()->route('admin.pages.index');
     }
@@ -29,6 +29,17 @@ class PagesController  extends BackEndController
         return redirect()->route('admin.pages.index');
     }
 
+
+
+    public function appendsSearch()
+    {
+        return ['search'=>request()->search ,'lang'=>request()->lang,'type'=>request()->type];
+    }
+
+    public function order()
+    {
+        return 'desc';
+    }
 
 
 }
